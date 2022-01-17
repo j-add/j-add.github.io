@@ -5,3 +5,15 @@
 html {
 	font-size: 62.5%;
 }
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100vw;
+	padding: 0 10%;
+	background-color: grey;
+}
