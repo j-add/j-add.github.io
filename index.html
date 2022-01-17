@@ -2,8 +2,14 @@
 <html lang="en">
 <head>
 	<title>Jordan Addis - Portfolio</title>
+	<!-- Styling -->
 	<link href="style.css" type="text/css" rel="stylesheet">
 	<link href="normalize.css" type="text/css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+	<!-- Scripts -->
+	<script src="https://kit.fontawesome.com/7c6af540e7.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<nav>
@@ -19,10 +25,10 @@
 			<a href="#" class="navLink">Contact</a>
 		</div>
 	</nav>
-	<header>
+	<header id="top">
 		<div class="headerContent">
-			<h1>&lth1&gtHello, world!&lt/h1&gt</h1>
-			<p>Cat ipsum dolor sit amet, balinese munchkin. Tiger ocicat american bobtail yet egyptian mau grimalkin. Bengal american shorthair singapura tabby or malkin. Scottish fold abyssinian persian so bombay. Cougar tabby persian american shorthair. Kitten malkin but norwegian forest and ragdoll so ocicat tiger.</p>
+			<h1 class="headerTitle">&lth1&gtHello, world!&lt/h1&gt</h1>
+			<p class="headerText">Cat ipsum dolor sit amet, balinese munchkin. Tiger ocicat american bobtail yet egyptian mau grimalkin. Bengal american shorthair singapura tabby or malkin. Scottish fold abyssinian persian so bombay. Cougar tabby persian american shorthair. Kitten malkin but norwegian forest and ragdoll so ocicat tiger.</p>
 		</div>
 	</header>
 	<main>
@@ -34,24 +40,24 @@
 		</section>
 		<section class="recentProjects" id="projects">
 			<div class="projectGrid">
-				<div class="projectBox">
+				<div class="projectItem">
 				</div>
-				<div class="projectBox">
+				<div class="projectItem">
 				</div>
-				<div class="projectBox">
+				<div class="projectItem">
 				</div>
-				<div class="projectBox">
+				<div class="projectItem">
 				</div>
 			</div>
 		</section>
 		<section class="featureProjects">
-			<div class="fProjectBox">
+			<div class="featureProjectsItem">
 			</div>
-			<div class="fProjectBox">
+			<div class="featureProjectsItem">
 			</div>
-			<div class="fProjectBox">
+			<div class="featureProjectsItem">
 			</div>
-			<div class="fProjectBox">
+			<div class="featureProjectsItem">
 			</div>
 		</section>
 		<section class="contactMe">
@@ -60,7 +66,10 @@
 		</section>
 	</main>
 	<footer>
+		<a href="#top" title="Return to top">
 		<div class="returnTop">
+			<i class="fas fa-chevron-up"></i>
 		</div>
+	</a>
 	</footer>
 </body>

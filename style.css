@@ -42,8 +42,11 @@ nav {
 }
 
 header {
+	font-family: 'Roboto Mono';
 	margin-top: 40px;
+	width: 100vw;
 	height: calc(100vh - 40px);
+	max-height: 800px;
 	background-image: url("mainImageBG.jpg");
 	background-position: center;
 	background-size: cover;
@@ -51,5 +54,76 @@ header {
 
 .headerContent {
 	display: flex;
-	padding: 0 10%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 10% 10%;
+}
+
+.headerTitle {
+	color: #ffffff;
+	font-size: 7.2rem;
+	font-weight: 500;
+}
+
+.headerText {
+	color: #ffffff;
+	font-size: 3.2rem;
+	font-weight: normal;
+}
+
+.aboutMe {
+	background-color: gray;
+	min-height: 600px;
+	width: 100vw;
+	padding: 20px 10%;
+}
+
+.recentProjects {
+	min-height: 800px;
+	width: 100vw;
+	padding: 20px 10%;
+}
+
+.projectGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 15px;
+}
+
+.projectItem {
+}
+
+.featureProjects {
+	width: 100vh;
+	height: 400px;
+	display: flex;
+}
+
+.featureProjectsItem {
+	background-image: url("#");
+	background-size: cover;
+}
+
+.contactMe {
+	
+}
+
+footer {
+	color: #ffffff;
+	background-color: gray;
+	min-height: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.returnTop {
+	padding: 5px 10px;
+	border: 2px solid #ffffff;
+	border-radius: 25%;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 3.2rem;
+	align-self: flex-end;
 }
