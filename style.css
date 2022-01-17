@@ -16,4 +16,18 @@ nav {
 	width: 100vw;
 	padding: 0 10%;
 	background-color: grey;
+	height: 40px;
+}
+
+header {
+	margin-top: 40px;
+	height: calc(100vh - 40px);
+	background-image: url("mainImageBG.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.headerContent {
+	display: flex;
+	padding: 0 10%;
 }
