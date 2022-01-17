@@ -7,6 +7,13 @@ html {
 	font-family: sans-serif;
 }
 
+a.anchor {
+	display: block;
+	position: relative;
+	top: -40px;
+	visibility: hidden;
+}
+
 nav {
 	position: fixed;
 	top: 0;
@@ -84,6 +91,7 @@ header {
 	min-height: 800px;
 	width: 100vw;
 	padding: 20px 10%;
+	background-color: Beige;
 }
 
 .projectGrid {
@@ -102,12 +110,14 @@ header {
 }
 
 .featureProjectsItem {
-	background-image: url("#");
+	background-image: url("https://via.placeholder.com/728x90");
 	background-size: cover;
+	max-width: 25%;
 }
 
 .contactMe {
-	
+	background-color: DarkGray;
+	height: 300px;
 }
 
 footer {
@@ -116,6 +126,8 @@ footer {
 	min-height: 200px;
 	display: flex;
 	justify-content: space-between;
+	width: 100vw;
+	padding: 40px 10%;
 }
 
 .returnTop {
