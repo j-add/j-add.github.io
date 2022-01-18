@@ -205,11 +205,15 @@ header {
 footer {
 	color: #ffffff;
 	background-color: gray;
-	min-height: 200px;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	width: 100vw;
 	padding: 40px 10%;
+}
+
+footer p {
+	font-size: 1.4rem;
 }
 
 .returnTop {
