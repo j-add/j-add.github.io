@@ -14,6 +14,8 @@ a.anchor {
 	visibility: hidden;
 }
 
+/* -- Nav --*/
+
 nav {
 	position: fixed;
 	top: 0;
@@ -60,6 +62,19 @@ nav {
 	background-color: #000000;
 	margin: 6px 0;
 }
+
+@media only screen and (max-width: 664px) {
+	.navLink {
+		display: none;
+	}
+	
+	.burgerMenu {
+		display: block;
+		padding: 5px;
+	}
+}
+
+/* -- Header/Intro -- */
 
 header {
 	font-family: 'Work Sans', sans-serif;
@@ -123,6 +138,19 @@ header {
 	border-bottom: 4px solid #9e381c;
 }
 
+@media only screen and (max-width: 310px) {
+	
+	.headerTitle {
+		font-size: 6.8rem;
+	}
+	
+	.headerText {
+		font-size: 2.6rem;
+	}
+}
+
+/* -- About me -- */
+
 .aboutMe {
 	background-color: gray;
 	min-height: 600px;
@@ -131,6 +159,8 @@ header {
 	box-shadow: inset 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: inset 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
 }
+
+/* -- Projects -- */
 
 .recentProjects {
 	min-height: 800px;
@@ -161,6 +191,8 @@ header {
 }
 
 -------- */
+
+/* -- Contact -- */
 
 .contactMe {
 	display: flex;
@@ -219,6 +251,8 @@ header {
 	border-bottom: 4px solid #000000;
 }
 
+/* -- Footer -- */
+
 footer {
 	color: #ffffff;
 	background-color: gray;
@@ -241,16 +275,4 @@ footer p {
 	color: #ffffff;
 	font-size: 3.2rem;
 	align-self: flex-end;
-}
-
-@media only screen and (max-width: 412px) {
-	
-	.navLink {
-		display: none;
-	}
-	
-	.burgerMenu {
-		display: block;
-		padding: 5px;
-	}
 }
