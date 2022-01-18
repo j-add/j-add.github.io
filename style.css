@@ -14,6 +14,29 @@ a.anchor {
 	visibility: hidden;
 }
 
+.lang {
+	font-family: monospace;
+}
+
+.lang.Actionscript {
+	color: red;
+}
+
+.lang.HTML {
+	color: blue;
+}
+
+.lang.CSS {
+	color: yellow;
+}
+
+.verticalDivider {
+	width: 2px;
+	background-color: #ffffff;
+	height: 100px;
+	max-height: 80%;
+}
+
 /* -- Nav --*/
 
 nav {
@@ -158,6 +181,18 @@ header {
 	padding: 20px 10%;
 	box-shadow: inset 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: inset 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+}
+
+.aboutMeText {
+	color: #ffffff;
+}
+
+.aboutMeText h2 {
+	font-size: 3.2rem;
+}
+
+.aboutMeText p {
+	font-size: 2.4rem;
 }
 
 /* -- Projects -- */
