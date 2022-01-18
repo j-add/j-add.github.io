@@ -65,7 +65,7 @@ header {
 	font-family: 'Work Sans', sans-serif;
 	margin-top: 70px;
 	width: 100vw;
-	height: calc(80vh - 40px);
+	height: calc(80vh - 70px);
 	max-height: 800px;
 	background-image: url("mainImageBG.jpg");
 	background-position: center;
