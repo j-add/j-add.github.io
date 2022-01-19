@@ -243,6 +243,10 @@ header {
 	gap: 15px;
 }
 
+.projectItem img {
+	max-width: 100%;
+}
+
 .projectName {
 	font-size: 1.4rem;
 	display: inline-block;
@@ -258,8 +262,21 @@ header {
 	border-bottom: 4px solid rgba(255, 255, 255, 0.8);
 }
 
-.projectItem img {
-	max-width: 100%;
+.projectDesc {
+	font-size: 1.4rem;
+	margin-left: 10px;
+}
+
+.projectLink {
+	text-decoration: none;
+	color: #000000;
+	margin-left: 10px;
+	font-size: 1.4rem;
+	border-bottom: 4px solid rgba(158, 56, 28, 0.8);
+}
+
+.projectLink:hover {
+	border-bottom: 4px solid #FFFFFF;
 }
 
 
