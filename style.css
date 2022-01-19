@@ -227,7 +227,13 @@ header {
 .recentProjects {
 	width: 100vw;
 	padding: 40px 10%;
-	background-color: Beige;
+	background-color: BlanchedAlmond;
+}
+
+.recentProjects h2 {
+	font-size: 3.2rem;
+	margin-bottom: 40px;
+	text-align: center;
 }
 
 .projectGrid {
@@ -237,7 +243,19 @@ header {
 	gap: 15px;
 }
 
-.projectItem {
+.projectName {
+	font-size: 1.4rem;
+	display: inline-block;
+	line-height: 1.2;
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-bottom: 4px solid rgba(158, 56, 28, 0.8);
+	margin-left: 10px;
+}
+
+.projectName:hover {
+	border-bottom: 4px solid rgba(255, 255, 255, 0.8);
 }
 
 .projectItem img {
