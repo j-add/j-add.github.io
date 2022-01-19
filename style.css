@@ -225,20 +225,60 @@ header {
 /* -- Projects -- */
 
 .recentProjects {
-	min-height: 800px;
 	width: 100vw;
-	padding: 20px 10%;
-	background-color: Beige;
+	padding: 40px 10%;
+	background-color: BlanchedAlmond;
+}
+
+.recentProjects h2 {
+	font-size: 3.2rem;
+	margin-bottom: 40px;
+	text-align: center;
 }
 
 .projectGrid {
+	max-width: 100%;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	gap: 15px;
 }
 
-.projectItem {
+.projectItem img {
+	max-width: 100%;
 }
+
+.projectName {
+	font-size: 1.4rem;
+	display: inline-block;
+	line-height: 1.2;
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-bottom: 4px solid rgba(158, 56, 28, 0.8);
+	margin-left: 10px;
+}
+
+.projectName:hover {
+	border-bottom: 4px solid rgba(255, 255, 255, 0.8);
+}
+
+.projectDesc {
+	font-size: 1.4rem;
+	margin-left: 10px;
+}
+
+.projectLink {
+	text-decoration: none;
+	color: #000000;
+	margin-left: 10px;
+	font-size: 1.4rem;
+	border-bottom: 4px solid rgba(158, 56, 28, 0.8);
+}
+
+.projectLink:hover {
+	border-bottom: 4px solid #FFFFFF;
+}
+
 
 /* Possible extra section --
 .featureProjects {
