@@ -273,44 +273,25 @@ header {
 	margin-left: 10px;
 	font-size: 1.4rem;
 	border-bottom: 4px solid rgba(158, 56, 28, 0.8);
+	display: inline-block;
+	line-height: 1.5;
 }
 
 .projectLink:hover {
 	border-bottom: 4px solid #FFFFFF;
 }
 
-
-/* Possible extra section --
-.featureProjects {
-	width: 100vw;
-	height: 400px;
-	display: flex;
-}
-
-.featureProjectsItem {
-	background-image: url("#");
-	background-size: cover;
-}
-
--------- */
-
 /* -- Contact -- */
 
 .contactMe {
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
+	flex-direction: column;
+	gap: 20px;
+	align-items: baseline;
 	background-color: DarkGray;
-	height: 200px;
 	padding: 40px 10%;
-}
-
-.mailIcon {
-	font-size: 9rem;
-}
-
-.contactText {
-	font-size: 1.9rem;
+	box-shadow: inset 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: inset 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
 }
 
 .contactTitle {
@@ -318,39 +299,35 @@ header {
 	gap: 20px;
 	align-items: center;
 	font-size: 3.2rem;
+	margin-top: 0;
+}
+
+.contactDesc {
+	font-size: 1.9rem;
+}
+
+.contactText {
+	font-size: 1.9rem;
+}
+
+.contactBtnContain {
+	font-size: 1.9rem;
+	font-weight: bolder;
+	display: flex;
+	gap: 20px;
 }
 
 .contactBtn {
-	color: #000000;
-	font-size: 1.6rem;
-	font-weight: bold;
-	text-transform: uppercase;
-	text-decoration: none;
-	margin-left: 10px;
-	padding-bottom: 4px;
-	border-bottom: 4px solid transparent;
-}
-
-.contactBtn:hover {
-	border-bottom: 4px solid #000000;
-}
-
-.socialContainer {
-	font-size: 1.9rem;
-	font-weight: bolder;
-}
-
-.socialIcon {
 	color: #000000;
 	font-size: 3rem;
 	letter-spacing: 1.2rem;
 	text-decoration: none;
 	padding-bottom: 4px;
-	border-bottom: 4px solid transparent;
+	border-bottom: 4px solid #ffffff;
 }
 
-.socialIcon:hover {
-	border-bottom: 4px solid #000000;
+.contactBtn:hover {
+	border-bottom: 4px solid #9e381c;
 }
 
 /* -- Footer -- */
