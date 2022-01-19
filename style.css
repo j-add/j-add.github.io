@@ -225,16 +225,15 @@ header {
 /* -- Projects -- */
 
 .recentProjects {
-	min-height: 800px;
 	width: 100vw;
-	padding: 20px 10%;
+	padding: 40px 10%;
 	background-color: Beige;
 }
 
 .projectGrid {
 	max-width: 100%;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	gap: 15px;
 }
 
