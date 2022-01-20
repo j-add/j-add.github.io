@@ -98,7 +98,6 @@ nav {
 header {
 	font-family: 'Work Sans', sans-serif;
 	margin-top: 70px;
-	width: 100vw;
 	height: calc(80vh - 70px);
 	max-height: 800px;
 	min-height: 300px;
