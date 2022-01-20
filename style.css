@@ -99,7 +99,7 @@ nav {
 header {
 	margin-top: 70px;
 	height: calc(80vh - 70px);
-	background-image: url("mainImageBG.jpg");
+	background-image: url("mainImageBG-min.jpg");
 	background-position: center;
 	background-size: cover;
 	display: -webkit-box;
