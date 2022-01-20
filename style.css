@@ -32,8 +32,8 @@ nav {
 	padding: 35px 10%;
 	background-color: #ffffff;
 	height: 40px;
-	box-shadow:  0px 12px 24px -12px rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow:  0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+	box-shadow:  0px 12px 24px -12px rgba(0, 0, 0, 0.5);
 }
 
 .navLogo {
@@ -164,8 +164,8 @@ header {
 	min-height: 500px;
 	width: 100vw;
 	padding: 40px 10%;
-	box-shadow: inset 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: inset 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
 }
 
 .aboutMeText {
@@ -290,8 +290,8 @@ header {
 	align-items: baseline;
 	background-color: #808080;
 	padding: 40px 10%;
-	box-shadow: inset 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: inset 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
 }
 
 .contactTitle {
