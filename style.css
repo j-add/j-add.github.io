@@ -96,7 +96,6 @@ nav {
 /* -- Header/Intro -- */
 
 header {
-	font-family: 'Work Sans', sans-serif;
 	margin-top: 70px;
 	height: calc(80vh - 70px);
 	max-height: 800px;
@@ -104,9 +103,6 @@ header {
 	background-image: url("mainImageBG.jpg");
 	background-position: center;
 	background-size: cover;
-}
-
-.headerContent {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -120,8 +116,6 @@ header {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	width: 100%;
-	height: 100%;
 }
 
 .intro {
