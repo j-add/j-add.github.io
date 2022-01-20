@@ -98,8 +98,6 @@ nav {
 header {
 	margin-top: 70px;
 	height: calc(80vh - 70px);
-	max-height: 800px;
-	min-height: 300px;
 	background-image: url("mainImageBG.jpg");
 	background-position: center;
 	background-size: cover;
@@ -320,17 +318,6 @@ header {
 /* -- Contact -- */
 
 .contactMe {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-	gap: 20px;
-	-webkit-box-align: baseline;
-	    -ms-flex-align: baseline;
-	        align-items: baseline;
 	background-color: #808080;
 	padding: 40px 10%;
 	-webkit-box-shadow: inset 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
@@ -339,13 +326,6 @@ header {
 
 .contactTitle {
 	color: #ffffff;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	gap: 20px;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
 	font-size: 3.2rem;
 	margin-top: 0;
 }
