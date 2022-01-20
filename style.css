@@ -1,5 +1,13 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 * {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 
 html {
@@ -25,9 +33,15 @@ nav {
 	position: fixed;
 	top: 0;
 	left: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	width: 100vw;
 	padding: 35px 10%;
 	background-color: #ffffff;
@@ -94,18 +108,34 @@ header {
 }
 
 .headerContent {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	width: 100%;
 	height: 100%;
 }
 
 .intro {
+	display:-webkit-box;
+	display:-ms-flexbox;
 	display:flex;
-	justify-content: center;
-	flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	gap: 0px;
 	width: 80%;
 	height: 90%;
@@ -128,6 +158,8 @@ header {
 }
 
 .headerLinks {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	gap: 40px;
 }
@@ -158,8 +190,12 @@ header {
 /* -- About me -- */
 
 .aboutMe {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	background-color: #808080;
 	min-height: 500px;
 	width: 100vw;
@@ -170,7 +206,9 @@ header {
 
 .aboutMeText {
 	color: #ffffff;
-	flex-grow: 1;
+	-webkit-box-flex: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1;
 }
 
 .aboutMeText h2 {
@@ -198,7 +236,9 @@ header {
 	max-height: 400px;
 	max-width: 400px;
 	border-radius: 50%;
-	flex-grow: 1;
+	-webkit-box-flex: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1;
 }
 
 .verticalDivider {
@@ -212,8 +252,11 @@ header {
 
 @media only screen and (max-width: 1010px) {
 	.aboutMe {
-		flex-wrap: wrap;
-		justify-content: center;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 		gap: 40px;
 	}
 	
@@ -238,6 +281,7 @@ header {
 
 .projectGrid {
 	max-width: 100%;
+	display: -ms-grid;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	gap: 15px;
@@ -284,10 +328,17 @@ header {
 /* -- Contact -- */
 
 .contactMe {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	gap: 20px;
-	align-items: baseline;
+	-webkit-box-align: baseline;
+	    -ms-flex-align: baseline;
+	        align-items: baseline;
 	background-color: #808080;
 	padding: 40px 10%;
 	-webkit-box-shadow: inset 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
@@ -296,9 +347,13 @@ header {
 
 .contactTitle {
 	color: #ffffff;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	gap: 20px;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	font-size: 3.2rem;
 	margin-top: 0;
 }
@@ -309,6 +364,8 @@ header {
 }
 
 .contactBtnContain {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	gap: 20px;
 }
@@ -331,9 +388,15 @@ header {
 footer {
 	color: #ffffff;
 	background-color: #696969;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	width: 100vw;
 	padding: 40px 10%;
 }
@@ -349,5 +412,6 @@ footer p {
 	text-decoration: none;
 	color: #ffffff;
 	font-size: 3.2rem;
-	align-self: flex-end;
+	-ms-flex-item-align: end;
+	    align-self: flex-end;
 }
