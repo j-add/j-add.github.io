@@ -225,6 +225,7 @@ header {
 
 .aboutMeImg {
 	width: 100%;
+	min-width: 300px;
 	max-width: 400px;
 	border-radius: 50%;
 	-webkit-box-flex: 1;
