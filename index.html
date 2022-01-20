@@ -4,23 +4,25 @@
 	<title>Jordan Addis - Portfolio</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Styling -->
-	<link href="normalize.css" type="text/css" rel="stylesheet">
-	<link href="style.css" type="text/css" rel="stylesheet">
+	<!-- FavIcon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<!-- Scripts -->
+	<script src="https://kit.fontawesome.com/7c6af540e7.js" crossorigin="anonymous"></script>
 	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
-	<!-- Scripts -->
-	<script src="https://kit.fontawesome.com/7c6af540e7.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<!-- Styling -->
+	<link href="normalize.css" type="text/css" rel="stylesheet">
+	<link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 	<a class="anchor" id="top"></a>
 	<nav>
 		<div class="navLeft">
-			<a href="#" class="navLogo">
-				<h3>Jordan Addis</h3>
-			</a>
+			<h3><a href="#" class="navLogo">Jordan Addis</a></h3>
 		</div>
 		<div class="navRight">
 			<a href="#top" class="navLink">Home</a>
@@ -35,66 +37,74 @@
 		</a>
 	</nav>
 	<header>
-		<div class="headerContent">
-			<div class="intro">
-				<h1 class="headerTitle">Hi, I'm Jordan</h1>
-				<p class="headerText">I am a fullstack developer in Bristol, UK</p>
-				<div class="headerLinks">
-					<a class="headerBtn" href="mailto:jordanaddis@gmail.com?subject=Let&apos;s&nbsp;work&nbsp;together">Hire me</a>
-					<a class="headerBtn" href="#about">Get to know me</a>
-				</div>
+		<div class="intro">
+			<h1 class="headerTitle">Hi, I'm Jordan</h1>
+			<p class="headerText">I am a fullstack developer in Bristol, UK</p>
+			<div class="headerLinks">
+				<a class="headerBtn" href="mailto:jordanaddis@gmail.com?subject=Let&apos;s&nbsp;work&nbsp;together">Hire me</a>
+				<a class="headerBtn" href="#about">Get to know me</a>
 			</div>
 		</div>
 	</header>
-	<main>
-		<a class="anchor" id="about"></a>
-		<section class="aboutMe">
-			<div class="aboutMeImg">
+	<a class="anchor" id="about"></a>
+	<section class="aboutMe">
+		<div class="aboutMeText">
+			<h2>About me</h2>
+			<p>I am currently enrolled on the <a href="https://io-academy.uk/courses/full-stack-track/" target="_blank">Full-Stack Track</a> at <a href="https://io-academy.uk/" target="_blank">iO Academy</a>, in Bath. I am hoping to graduate with enough knowledge to jump right into a junior web developer role.</p>
+			<p>I will be learning <span class="lang">HTML</span>, <span class="lang">CSS</span> and <span class="lang">Javascript</span> for front-end, and <span class="lang">PHP</span> and <span class="lang">Node.js</span> for back-end.</p>
+		</div>
+		<div class="verticalDivider">
+		</div>
+		<img src="headshot.jpg" alt="a headshot of Jordan" class="aboutMeImg" />
+	</section>
+	<a class="anchor" id="projects"></a>
+	<main class="recentProjects">
+		<h2>Recent Projects</h2>
+		<div class="projectGrid">
+			<div class="projectItem">
+				<img src="portfolioPH.png" alt="Shows what my project looks like" />
+				<h3><a href="#" class="projectName">Project One</a></h3>
+				<p class="projectDesc">Here is a little bit about this project</p>
+				<a href="https://github.io" target="_blank" title="View on GitHub" class="projectLink"><i class="fab fa-github"></i>&nbsp;View on GitHub</a>
+				<a href="#" target="_blank" title="View live project" class="projectLink"><i class="fas fa-globe"></i>&nbsp;Live project</a>
 			</div>
-			<div class="aboutMeText">
+			<div class="projectItem">
+				<img src="portfolioPH.png" alt="Shows what my project looks like" />
+				<h3><a href="#" class="projectName">Project Two</a></h3>
+				<p class="projectDesc">Here is a little bit about this project</p>
+				<a href="https://github.io" target="_blank" title="View on GitHub" class="projectLink"><i class="fab fa-github"></i>&nbsp;View on GitHub</a>
+				<a href="#" target="_blank" title="View live project" class="projectLink"><i class="fas fa-globe"></i>&nbsp;Live project</a>
 			</div>
-		</section>
-		<a class="anchor" id="projects"></a>
-		<section class="recentProjects">
-			<div class="projectGrid">
-				<div class="projectItem">
-				</div>
-				<div class="projectItem">
-				</div>
-				<div class="projectItem">
-				</div>
-				<div class="projectItem">
-				</div>
+			<div class="projectItem">
+				<img src="portfolioPH.png" alt="Shows what my project looks like" />
+				<h3><a href="#" class="projectName">Project Three</a></h3>
+				<p class="projectDesc">Here is a little bit about this project</p>
+				<a href="https://github.io" target="_blank" title="View on GitHub" class="projectLink"><i class="fab fa-github"></i>&nbsp;View on GitHub</a>
+				<a href="#" target="_blank" title="View live project" class="projectLink"><i class="fas fa-globe"></i>&nbsp;Live project</a>
 			</div>
-		</section>
-		<!-- Possible extra section>
-		<section class="featureProjects">
-			<div class="featureProjectsItem">
+			<div class="projectItem">
+				<img src="portfolioPH.png" alt="Shows what my project looks like" />
+				<h3><a href="#" class="projectName">Project Four</a></h3>
+				<p class="projectDesc">Here is a little bit about this project</p>
+				<a href="https://github.io" target="_blank" title="View on GitHub" class="projectLink"><i class="fab fa-github"></i>&nbsp;View on GitHub</a>
+				<a href="#" target="_blank" title="View live project" class="projectLink"><i class="fas fa-globe"></i>&nbsp;Live project</a>
 			</div>
-			<div class="featureProjectsItem">
-			</div>
-			<div class="featureProjectsItem">
-			</div>
-			<div class="featureProjectsItem">
-			</div>
-		</section>
-			-->
-		<a class="anchor" id="contact"></a>
-		<section class="contactMe">
-			<div class="contactText">
-				<div class="contactTitle">
-				</div>
-			</div>
-			<div class="socialContainer">
-			</div>
-		</section>
+		</div>
 	</main>
+	<a class="anchor" id="contact"></a>
+	<section class="contactMe">
+		<div class="contactText">
+			<h2 class="contactTitle">Contact me</h2>
+			<p class="contactDesc">If you'd like to get in touch, feel free to drop me an email. If you'd like to keep an eye out for future projects, take a look at my social channels.</p>
+		</div>
+		<div class="contactBtnContain">
+			<a href="mailto:jordanaddis@gmail.com"><i class="contactBtn far fa-envelope"></i></a>
+			<a href="https://github.com/j-add" target="_blank"><i class="contactBtn fab fa-github socialIcon"></i></a>
+			<a href="https://uk.linkedin.com/in/jordanaddis" target="_blank"><i class="contactBtn fab fa-linkedin-in socialIcon"></i></a>
+		</div>
+	</section>
 	<footer>
-		<div class="footerLeft">
-			<p>&copy; Copyright 2021</p>
-		</div>
-		<div class="footerRight">
-			<a href="#top" title="Return to top" class="returnTop"><i class="fas fa-chevron-up"></i></a>
-		</div>
+		<p>&copy; Copyright 2021</p>
+		<a href="#top" title="Return to top" class="returnTop"><i class="fas fa-chevron-up"></i></a>
 	</footer>
 </body>
